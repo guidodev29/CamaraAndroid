@@ -36,4 +36,4 @@ Se realizaron pruebas para evaluar el uso de recursos de la aplicación en difer
 ### Instrucciones de Instalación
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/guidodev29/CamaraAndroid.git
