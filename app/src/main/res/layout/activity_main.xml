@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/background_light">
+
+    <!-- Mensaje de bienvenida -->
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido a la App de Fotos!"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botón para solicitar permiso de la cámara -->
+    <Button
+        android:id="@+id/button_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permitir uso de la Cámara"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <!-- Botón para solicitar permiso de ubicación -->
+    <Button
+        android:id="@+id/button_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permitir uso de la Ubicación"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <!-- Botón para solicitar permiso de almacenamiento -->
+    <Button
+        android:id="@+id/button_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permitir acceso a Almacenamiento"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <!-- TextView para mostrar el estado de los permisos -->
+    <TextView
+        android:id="@+id/text_permission_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado de los permisos"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para ir a la siguiente actividad -->
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:enabled="false" />
+
+</LinearLayout>

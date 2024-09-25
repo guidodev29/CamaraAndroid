@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/background_light">
+
+    <!-- Vista previa de la imagen -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Botón para tomar foto -->
+    <Button
+        android:id="@+id/button_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomar Foto"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <!-- Botón para ver fotos tomadas -->
+    <Button
+        android:id="@+id/button_view_photos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Fotos Tomadas"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+</LinearLayout>
