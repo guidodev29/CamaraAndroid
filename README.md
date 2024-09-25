@@ -37,3 +37,6 @@ Se realizaron pruebas para evaluar el uso de recursos de la aplicación en difer
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/guidodev29/CamaraAndroid.git
+
+### Video del funcionamiento de la app
+- https://youtu.be/PP2sOc4EKA0
